@@ -1,3 +1,7 @@
+/*
+	Created by Le-En Huang (ehuang42) during Fall 2018.
+*/
+
 public class School {
 	public String schoolName;
 	public int yearFounded;

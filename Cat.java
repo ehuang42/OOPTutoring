@@ -1,4 +1,14 @@
+/*
+    Created by Dr. Christopher Simpkins and modified by 
+    Le-En Huang (ehuang42) during Fall 2018 for tutoring 
+    purposes.
 
+    Demonstrate concepts of Objects, override, constructors, 
+    getters & setters, enum class, and modifiers.
+    
+    Related Files:
+        enum class Color.java
+*/
 public class Cat {
 
     private String name;
@@ -28,7 +38,7 @@ public class Cat {
     // setters
 
     public void setColor(Color color) {
-        this.color = Color.PURPLE;
+        this.color = color;
     }
 
     public void setName(String name) {
@@ -52,10 +62,3 @@ public class Cat {
     public String toString( ) {
         return ("Cat is: " + name);
     }
-    public static void main(String[] args) {
-        Cat cat1 = new Cat("Alan", 1);
-    }
-}
-
-// -------
-// Cat cat1 = new Cat();
